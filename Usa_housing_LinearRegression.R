@@ -106,9 +106,6 @@ MAE(pred_price, test$Price)
 message("RMSE de test: ")
 RMSE(pred_price, test$Price)
 
-errores <- postResample(pred = pred_testprice,
-                       obs = test$Price)
-print(errors)
 #___________________
 
 
